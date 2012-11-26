@@ -19,46 +19,28 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="layout.haml" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="layout.haml" pinned="false" current="true" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/source/layout.haml">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="19" column="9" selection-start="686" selection-end="686" vertical-scroll-proportion="-12.423077">
+            <state line="19" column="9" selection-start="687" selection-end="687" vertical-scroll-proportion="0.3845238">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="_layout.scss" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="_layout.scss" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/source/stylesheets/_layout.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="22" column="5" selection-start="409" selection-end="409" vertical-scroll-proportion="0.4254835">
+            <state line="32" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="page_helpers.rb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/helpers/page_helpers.rb">
+      <file leaf-file-name="_var.scss" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/source/stylesheets/_var.scss">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/index.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="artwork.html.haml" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/source/artwork.html.haml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="2" column="7" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.3076923">
+            <state line="6" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -78,8 +60,11 @@
         <option value="$PROJECT_DIR$/helpers/page_helpers.rb" />
         <option value="$PROJECT_DIR$/source/index.html.haml" />
         <option value="$PROJECT_DIR$/source/artwork.html.haml" />
-        <option value="$PROJECT_DIR$/source/layout.haml" />
+        <option value="$PROJECT_DIR$/source/stylesheets/main.css.scss" />
         <option value="$PROJECT_DIR$/source/stylesheets/_layout.scss" />
+        <option value="$PROJECT_DIR$/source/stylesheets/_var.scss" />
+        <option value="$PROJECT_DIR$/source/ambigram.html.erb" />
+        <option value="$PROJECT_DIR$/source/layout.haml" />
       </list>
     </option>
   </component>
@@ -340,14 +325,14 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="960" height="1040" extended-state="0" />
-    <editor active="true" />
+    <frame x="0" y="0" width="960" height="1040" extended-state="1" />
+    <editor active="false" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="true" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25501114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25501114" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -453,37 +438,58 @@
         <state line="72" column="12" selection-start="1571" selection-end="1571" vertical-scroll-proportion="0.5802048" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/artwork.html.haml">
+    <entry file="file://$PROJECT_DIR$/helpers/page_helpers.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="26" selection-end="26" vertical-scroll-proportion="-1.3076923">
+        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.03868032">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/source/layout.haml">
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/main.css.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="19" column="9" selection-start="686" selection-end="686" vertical-scroll-proportion="-12.423077">
+        <state line="0" column="12" selection-start="12" selection-end="12" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/ambigram.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="7" selection-start="27" selection-end="27" vertical-scroll-proportion="0.040816326">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/index.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="7" selection-start="29" selection-end="29" vertical-scroll-proportion="-1.3076923">
+        <state line="2" column="7" selection-start="29" selection-end="29" vertical-scroll-proportion="0.03985932">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/helpers/page_helpers.rb">
+    <entry file="file://$PROJECT_DIR$/source/artwork.html.haml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
+        <state line="2" column="7" selection-start="26" selection-end="26" vertical-scroll-proportion="0.03985932">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/stylesheets/_var.scss">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="28" selection-start="185" selection-end="185" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/source/stylesheets/_layout.scss">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="22" column="5" selection-start="409" selection-end="409" vertical-scroll-proportion="0.4254835">
+        <state line="32" column="28" selection-start="601" selection-end="601" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/source/layout.haml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="19" column="9" selection-start="687" selection-end="687" vertical-scroll-proportion="0.3845238">
           <folding />
         </state>
       </provider>
