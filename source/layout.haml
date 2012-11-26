@@ -1,0 +1,20 @@
+!!! 5
+%html
+  %head
+    %title MeongX
+    %meta{ :'http-equiv' => 'Content-Type', :content => 'text/html; charset=utf-8' }
+    %meta{ :name => 'viewport', :content => 'width=device-width', :'initial-scale' => '1.0' }
+    = stylesheet_link_tag 'screen', 'main'
+
+  %body
+    #nav
+      %ul
+        - sitemap.resources.select{|p| p.url =~ /^\/$|(^\/\w+\.html$)/}.sort{|a,b| a.metadata[:page]['sort'] <=> b.metadata[:page]['sort']}.each do |page|
+          %li
+            - if request.path != page.destination_path
+              %a{ :href => page.url }
+                = page.metadata[:page]['title']
+            - else
+              = page.metadata[:page]['title'] + ' &#9668;'
+
+    .grid
