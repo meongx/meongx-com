@@ -6,7 +6,7 @@
     %meta{ :name => 'viewport', :content => 'width=device-width', :'initial-scale' => '1.0' }
     = stylesheet_link_tag 'screen', 'main'
 
-  %body
+  %body{ :class => page_class }
     #nav
       %ul
         - sitemap.resources.select{|p| p.url =~ /^\/$|(^\/\w+\.html$)/}.sort{|a,b| a.metadata[:page]['sort'] <=> b.metadata[:page]['sort']}.each do |page|
@@ -17,4 +17,5 @@
             - else
               = page.metadata[:page]['title'] + ' &lsaquo;'
 
-    .wrap
+    #wrap
+      = yield

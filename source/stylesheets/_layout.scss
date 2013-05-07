@@ -4,19 +4,14 @@ body {
   color: white;
   min-height:800px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-}
-@mixin pages-background {
   background: #343434 $background-pages 50% 260px no-repeat;
+  //background-attachment: fixed;
 }
-body {
-  background: #343434;
-  background-image: $background-index;
-  background-repeat: no-repeat;
-  background-position: left top;
+body.index {
+  background: #343434 $background-index left top no-repeat;
 }
-
 @media screen and (max-width:480px) {
-  body {
+  body.index {
     background-position: $background-index-position-small;
   }
 }
@@ -30,6 +25,8 @@ body {
     margin-top: 10px;
 
     a:link, a:visited {
+      text-shadow: 1px 1px 1px #343434;
+      font-weight: 600;
       color: $nav-link-color;
     }
     a:hover {
@@ -37,3 +34,26 @@ body {
     }
   }
 }
+
+#wrap {
+  padding: 20px;
+}
+
+p {
+  margin-bottom: 20px;
+  text-align: justify;
+  line-height: 1.5em;
+  text-shadow: 1px 1px 1px black;
+}
+
+strong {
+  font-weight: bold;
+  color: black;
+}
+.em1 {
+  color: $em-color-1;
+}
+.em2 {
+  color: $em-color-2;
+}
+
