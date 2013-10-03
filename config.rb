@@ -1,3 +1,6 @@
+# live reload
+activate :livereload
+
 ###
 # Blog settings
 ###

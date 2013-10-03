@@ -4,11 +4,11 @@ body {
   color: white;
   min-height:800px;
   font-family: Verdana, Arial, Helvetica, sans-serif;
-  background: #343434 $background-pages 50% 260px no-repeat;
+  background: $background-index-color $background-pages 50% 260px no-repeat;
   //background-attachment: fixed;
 }
 body.index {
-  background: #343434 $background-index left top no-repeat;
+  background: $background-index-color $background-index left top no-repeat;
 }
 @media screen and (max-width:480px) {
   body.index {
@@ -26,7 +26,6 @@ body.index {
 
     a:link, a:visited {
       text-shadow: 1px 1px 1px #343434;
-      font-weight: 600;
       color: $nav-link-color;
     }
     a:hover {
@@ -44,6 +43,10 @@ p {
   text-align: justify;
   line-height: 1.5em;
   text-shadow: 1px 1px 1px black;
+}
+
+img {
+  max-width: 100%;
 }
 
 strong {
